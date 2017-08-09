@@ -1,0 +1,20 @@
+{
+  "name": "phrasebook-specs",
+  "version": "0.1.0",
+  "description": "Phrasebook api acceptance tests",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "oliosinter",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.1.5",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.2.0",
+    "mocha": "^2.4.5",
+    "mocha-jenkins-reporter": "^0.2.3",
+    "superagent": "^1.7.2",
+    "superagent-promise": "^1.1.0"
+  }
+}
